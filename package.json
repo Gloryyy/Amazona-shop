@@ -1,0 +1,36 @@
+{
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce website like amazon",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec npx babel-node backend/server.js"
+  },
+  "author": "Majd",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.12.13",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.13",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.11"
+  }
+}
